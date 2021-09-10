@@ -21,6 +21,48 @@
     font-size: 60px;
  
 }
+.imgnyacov, .imgnya2cov, .imgnya3cov{ 
+  background-size:cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.imgnya, .imgnyacov{
+  background-image: url("../img/home/smp.jpg"); 
+}
+.imgnya2, .imgnya2cov{
+  background-image: url("../img/home/spm.jpg"); 
+}
+.imgnya3,.imgnya3cov{
+  background-image: url("../img/home/smbg.jpg"); 
+}
+.imgnya, .imgnya2, .imgnya3{
+   height: 140px;
+   background-size: cover;
+   margin: auto;
+   width: 140px; 
+}
+.cardku{
+  background-image: url(../img/album/lulus.jpg);
+  border: #171819 solid;
+ 
+ max-width: 100%;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+
+ 
+}
+.box{
+ height: 100%;
+  border: #171819 solid;
+ 
+  
+}
 .imgku {
     position: relative;
     display: block;
@@ -48,9 +90,10 @@
 /*---------------------------------------
      FOOTER              
   -----------------------------------------*/
-
+ 
   .site-footer {
     background: #171819;
+    position: absolute;
     padding: 7em 0 6em 0;
   }
 
